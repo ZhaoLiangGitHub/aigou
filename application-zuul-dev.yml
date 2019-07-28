@@ -6,7 +6,6 @@ spring:
 zuul:
   ignored-services: '*'
   routes:
-   plat:
     path: /plat/**
     serviceId: AIGOU-PLAT
   prefix: /service
