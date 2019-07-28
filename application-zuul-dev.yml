@@ -2,11 +2,11 @@ server:
   port: 2000
 spring:
   application:
-    name: AIGOU-ZUUL
+    name: AIGOU-ZUUL    
 zuul:
   ignored-services: '*'
   routes:
-    plat:
-      path: /plat/** #平台服务的请求路径
-      serviceId: AIGOU-PLAT
-  prefix: /services #请求前缀
+   plat:
+    path: /plat/**
+    serviceId: AIGOU-PLAT
+  prefix: /service
