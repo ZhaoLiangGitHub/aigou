@@ -4,8 +4,8 @@ spring:
   application:
     name: AIGOU-ZUUL    
 zuul:
-  ignored-services: '*'
   routes:
-    path: /plat/**
-    serviceId: AIGOU-PLAT
-  prefix: /service
+    plat:
+      path: /plat/** #平台服务的请求路径
+      serviceId: AIGOU-PLAT
+    prefix: /service
