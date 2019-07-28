@@ -8,4 +8,4 @@ zuul:
   routes:
     path: /plat/**
     serviceId: AIGOU-PLAT
-  prefix: /service
+  prefix: /services
