@@ -4,7 +4,7 @@ spring:
   application:
     name: AIGOU-ZUUL
 zuul:
-  ignoredServices: '*'
+  ignored-services: '*'
   routes:
     plat:
       path: /plat/** #平台服务的请求路径
