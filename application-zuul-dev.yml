@@ -2,7 +2,7 @@ server:
   port: 2000
 spring:
   application:
-    name: AIGOU-ZUUL    
+    name: AIGOU-ZUUL   
 zuul:
   routes:
     plat:
