@@ -4,8 +4,9 @@ spring:
   application:
     name: AIGOU-ZUUL   
 zuul:
+  ignoredServices: '*'
   routes:
     plat:
-      path: /plat/**
+      path: /plat/** 
       serviceId: AIGOU-PLAT
-    prefix: /service
+  prefix: /services 
