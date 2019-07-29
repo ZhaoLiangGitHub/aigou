@@ -1,5 +1,5 @@
 server:
-  port: 2007
+  port: 2000
 spring:
   application:
     name: AIGOU-ZUUL    
