@@ -6,6 +6,6 @@ spring:
 zuul:
   routes:
     plat:
-      path: /plat/** #平台服务的请求路径
+      path: /plat/**
       serviceId: AIGOU-PLAT
     prefix: /service
