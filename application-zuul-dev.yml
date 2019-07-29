@@ -6,6 +6,6 @@ spring:
 zuul:
   routes:
     plat:
-      path: /plat/** #Æ½Ì¨·şÎñµÄÇëÇóÂ·¾¶
+      path: /plat/** #å¹³å°æœåŠ¡çš„è¯·æ±‚è·¯å¾„
       serviceId: AIGOU-PLAT
     prefix: /service
