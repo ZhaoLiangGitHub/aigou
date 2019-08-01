@@ -6,7 +6,6 @@ spring:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql:///aigou_product?autoReconnect=true&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+    url: jdbc:mysql:///aigou_product
     username: root
     password: 123456
-
