@@ -1,0 +1,11 @@
+server:
+  port: 6000
+spring:
+  application:
+    name: AIGOU-PRODUCT
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///aigou_product
+    username: root
+    password: 123456
