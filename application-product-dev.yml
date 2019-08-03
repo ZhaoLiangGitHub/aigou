@@ -2,9 +2,9 @@ server:
   port: 5000
 spring:
   application:
-    name: AIGOU-product
+    name: AIGOU-PRODUCT
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: root
-    url: jdbc:mysql:///aigou
+    password: 123456
+    url: jdbc:mysql:///aigou-product
