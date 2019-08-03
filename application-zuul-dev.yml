@@ -2,14 +2,14 @@ server:
   port: 2000
 spring:
   application:
-    name: AIGOU-zuul
+    name: AIGOU-ZUUL
 zuul:
   routes:
     plat:
       path: /plat/**
-      serviceId: AIGOU-plat
+      serviceId: AIGOU-PLAT
     product:
       path: /product/**
-      serviceId: AIGOU-product
+      serviceId: AIGOU-PRODUCT
   ignored-services: '*'
   prefix: /services
